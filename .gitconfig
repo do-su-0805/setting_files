@@ -1,3 +1,8 @@
 [user]
 	name = do-su-0805
 	email = sasugasannann@gmail.com
+[alias]
+	cm = commit
+	co = checkout
+	br = branch
+	st = status
