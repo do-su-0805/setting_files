@@ -1,7 +1,11 @@
 #!/bin/sh
 
 ## for .gitconfig
-ln -s `pwd`/.gitconfig ${HOME}/.gitconfig
+if [ ! -f ${HOME}/.gitconfig ]; then
+  ln -s `pwd`/.gitconfig ${HOME}/.gitconfig
+fi
 
 ## for .screenrc
-ln -s `pwd`/.screenrc ${HOME}/.screenrc
+if [ ! -f ${HOME}/.screenrc ]; then
+  ln -s `pwd`/.screenrc ${HOME}/.screenrc
+fi
