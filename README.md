@@ -1,3 +1,4 @@
 # Setting Files
-- 現状、.gitconfig のみ
 
+## How To Use
+- ` $./install.sh`

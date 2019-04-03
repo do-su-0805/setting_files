@@ -7,4 +7,4 @@
 	br = branch
 	st = status
 [ghq]
-	root = "/home/do-su-0805/.ghq/src"
+	root = /home/do-su-0805/source/

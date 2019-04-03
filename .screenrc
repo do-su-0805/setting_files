@@ -1,0 +1,9 @@
+# escape key
+escape ^tT
+
+# hard status
+hardstatus alwayslastline '%02c:%s %{= .g}%H%{-} %L=%-w%45L>%{=u g.}%n %t%{-}%+w %-17<%=%{= .y}(%l)'
+
+# disable messsage and bell
+startup_message off
+vbell off
